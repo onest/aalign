@@ -35,5 +35,9 @@ $ ./${APPNAME}.out -q ${query_name_fasta} -d ${database_name_fasta} -t ${THREAD_
 ```
 The program will show the execution time in millisecond and corresponding GCUPS. Additionally, top 10 sequences with highest scores will be listed.
 
+##Note:
+
+For the multi-threaded version, we have 32-bit integer version on MIC and 32/16-bit integer versions on CPU. The 8-bit integer version on CPU is under development.
+
 ##License
 Please refer to the included LICENSE file.
