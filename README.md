@@ -8,13 +8,13 @@ The pairwise sequence alignment tools include Smith-Waterman, Needleman-Wunsch a
 
 ##Single-threaded vecterized version 
 
-/ModularDesign
+In the folder of /ModularDesign.
 
 ###Usage:
 
 In the Makefile, you can change the target platform or application.
 ```
-    $ ./${APPNAME} -q ${query_name_fasta} -d ${subject_name_fasta} 
+$ ./${APPNAME} -q ${query_name_fasta} -d ${subject_name_fasta} 
 ```
 The main function will call five versions of sequence alignments and compare their execution time in second with the computed score.
 * seq_orig: default sequential version
@@ -25,13 +25,13 @@ The main function will call five versions of sequence alignments and compare the
 
 ##Multi-threaded vecterized version 
 
-/MultiModularDesign
+In the folder of /MultiModularDesign.
 
 ##Usage:
 
 In the Makefile, you can change the target platform or application.
 ```
-     $ ./${APPNAME}.out -q ${query_name_fasta} -d ${database_name_fasta} -t ${THREAD_NUM}
+$ ./${APPNAME}.out -q ${query_name_fasta} -d ${database_name_fasta} -t ${THREAD_NUM}
 ```
 The program will show the execution time in millisecond and corresponding GCUPS. Additionally, top 10 sequences with highest scores will be listed.
 
