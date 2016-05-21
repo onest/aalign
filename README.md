@@ -12,7 +12,7 @@ In the folder of /ModularDesign.
 
 ###Usage:
 
-In the Makefile, you can change the target platform or application.
+In the Makefile, you can change the target platform or application. After compilation, run the executable as:
 ```
 $ ./${APPNAME} -q ${query_name_fasta} -d ${subject_name_fasta} 
 ```
@@ -29,7 +29,7 @@ In the folder of /MultiModularDesign.
 
 ###Usage:
 
-In the Makefile, you can change the target platform or application.
+In the Makefile, you can change the target platform or application. After compilation, run the executable as:
 ```
 $ ./${APPNAME}.out -q ${query_name_fasta} -d ${database_name_fasta} -t ${THREAD_NUM}
 ```
