@@ -27,7 +27,7 @@ The main function will call five versions of sequence alignments and compare the
 
 In the folder of /MultiModularDesign.
 
-##Usage:
+###Usage:
 
 In the Makefile, you can change the target platform or application.
 ```
